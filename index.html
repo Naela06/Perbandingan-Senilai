@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(008.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: sans-serif;
+        }
+
+        .input {
+            position: fixed;
+            top: 50%;
+            left: -100%; /* Awal posisi di luar layar kiri */
+            transform: translateY(-50%);
+            background: rgba(68, 187, 140, 0.9);
+            padding: 50px;
+            width: 320px;
+            box-shadow: 0px 0px 25px 10px rgb(15, 143, 148);
+            border-radius: 15px;
+            animation: slideIn 1s ease forwards; /* Animasi */
+        }
+
+        @keyframes slideIn {
+            from {
+                left: -100%; /* Awal di luar layar kiri */
+            }
+            to {
+                left: 50%; /* Berhenti di tengah */
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .input h1 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 30px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            margin-top: 0;
+        }
+
+        .box-input {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            border-bottom: 2px solid rgb(2, 2, 2);
+            padding: 8px 0;
+        }
+
+        .box-input i {
+            font-size: 23px;
+            color: rgb(41, 25, 25);
+        }
+
+        .box-input input {
+            width: 85%;
+            padding: 5px 0;
+            background: none;
+            border: none;
+            outline: none;
+            color: rgb(29, 13, 13);
+            font-size: 18px;
+        }
+
+        .box-input input::placeholder {
+            color: rgb(32, 12, 12);
+        }
+
+        .btn-input {
+            margin: 20px 0;
+            background: none;
+            border: 1px solid rgb(20, 16, 16);
+            width: 100%;
+            padding: 10px;
+            color: rgb(20, 15, 15);
+            font-size: 18px;
+            letter-spacing: 3px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .btn-input:hover {
+            background: rgb(236, 234, 234);
+        }
+
+        .bottom {
+            text-align: center;
+        }
+
+        .bottom p {
+            color: white;
+            font-size: 15px;
+        }
+
+        .bottom a {
+            color: rgb(12, 12, 12);
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .bottom a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input">
+        <h1>LOGIN</h1>
+        <form action="login.php" method="POST">
+            <div class="box-input">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text" name="email" placeholder="Email">
+            </div>
+            <div class="box-input">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <button type="submit" name="login" class="btn-input">Login</button>
+            <div class="bottom">
+                <p>Belum punya akun? 
+                    <a href="register.html">Register disini</a>
+                </p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

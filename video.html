@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Video YouTube</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            body {
+             /* Tambahkan latar belakang di body */
+            background-image: url('034.JPG'); /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover; /* Mengatur gambar agar menutupi seluruh layar */
+            background-position: center; /* Posisi gambar di tengah */
+            background-repeat: no-repeat; /* Jangan ulangi gambar */
+            background-attachment: fixed; /* Gambar tetap saat di-scroll */
+            color: #0c0b0b; /* Warna teks default */
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            <style>
+       
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px; /* Jarak tambahan di bawah judul */
+        }
+        .animated-text {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 30px; /* Jarak tambahan di atas teks animasi */
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        footer {
+            border-top: 2px solid #007bff; /* Garis pemisah */
+            padding-top: 10px;
+            margin-top: 40px; /* Jarak tambahan dari konten di atas */
+            padding-bottom: 20px; /* Jarak di bawah footer */
+            margin-bottom: 0; /* Menghilangkan jarak di bawah footer */
+            position: relative; /* Agar footer tetap di bagian bawah */
+            width: 100%; /* Memastikan footer penuh lebar */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NAELA MAGFIROH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="kelas7.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="perbandingan_senilai.html">Materi</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="Quiz.html">Quiz</a>
+                      <!-- Media Pembelajaran Dropdown List -->
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Media Pembelajaran
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="video.html">Video Pembelajaran</a></li>
+                            <li><a class="dropdown-item" href="grafikgeogebra.html">Geogebra Grafik</a></li>
+                            <li><a class="dropdown-item" href="Lembar Kerja.html">Lembar Kerja</li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="biodata.html">Biodata</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="materi segitiga.html">Kontak</a>
+                  </li>
+                </ul>
+              </div>
+        </div>
+    </nav>
+
+    <div class="video-container text-center">
+        <h1>Yuk Nonton Dulu</h1>
+        <!-- Video dari YouTube -->
+        <iframe width="800" height="450" 
+            src="https://www.youtube.com/embed/kucZ9jOs4lc?si=Q3O44phv_E-yfo0W" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <div class="animated-text">
+            Sekarang yuk lanjut ke materi dengan menekan tombol materi di samping kiri atas.
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white text-center py-3">
+        <p>&copy; Pendidikan Matematika.</p>
+    </footer>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

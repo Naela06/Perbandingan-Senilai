@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Naela Magfiroh</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('008.jpg'); /* Menambahkan gambar latar belakang */
+            background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh halaman */
+            background-position: center; /* Memposisikan gambar di tengah */
+            background-attachment: fixed; /* Agar gambar tetap di tempat saat di-scroll */
+            color: #333; /* Warna teks untuk kontras */
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 100px auto;
+            background-color: rgba(191, 212, 224, 0.85); /* Warna latar belakang dengan transparansi */
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .biodata-section {
+            margin-bottom: 30px;
+        }
+
+        .biodata-section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        }
+
+        .biodata-grid {
+            display: grid;
+            grid-template-columns: 150px auto;
+            grid-column-gap: 20px;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .biodata-grid div {
+            margin-bottom: 8px;
+        }
+
+        .biodata-grid div:nth-child(odd) {
+            font-weight: bold;
+        }
+
+        .profile-pic {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-pic img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* Tambahan untuk memperjelas teks di navbar */
+        .navbar-dark .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-dark .navbar-brand {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">NAELA MAGFIROH</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="kelas7.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="perbandingan_senilai.html">Materi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Quiz.html">Kuis</a>
+                </li>
+                <!-- Dropdown Pembelajaran Media -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMedia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pembelajaran Media
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMedia">
+                        <li><a class="dropdown-item" href="video.html">Video</a></li>
+                        <li><a class="dropdown-item" href="grafikgeogebra.html">Grafik Geogebra</a></li>
+                        <li><a class="dropdown-item" href="Lembar Kerja.html">Lembar Kerja</a></li>
+                    </ul>
+                </li>
+                <!-- Dropdown Tentang Kami -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tentang Kami
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                        <li><a class="dropdown-item" href="biodata.html">Biodata</a></li>
+                        <li><a class="dropdown-item" href="kontak.html">Kontak Saya</a></li>
+                    </ul>
+                </li>
+                <!-- Log Out -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Keluar</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Konten Biodata -->
+    <div class="container">
+        <h1>Biodata Pribadi</h1>
+
+        <div class="profile-pic">
+            <img src="023.jpg.jpeg" alt="Foto Naela Magfiroh">
+        </div>
+
+        <div class="biodata-section">
+            <h2>Data Diri</h2>
+            <div class="biodata-grid">
+                <div>Nama:</div>
+                <div>Naela Magfiroh</div>
+                <div>Jenis Kelamin:</div>
+                <div>Perempuan</div>
+                <div>Tempat/Tanggal Lahir:</div>
+                <div>Masbagik, 6 Desember 2004</div>
+                <div>Kewarganegaraan:</div>
+                <div>Indonesia</div>
+                <div>Status:</div>
+                <div>Mahasiswa</div>
+                <div>Tinggi Badan:</div>
+                <div>155 cm</div>
+                <div>Berat Badan:</div>
+                <div>57 kg</div>
+                <div>Agama:</div>
+                <div>Islam</div>
+                <div>Alamat:</div>
+                <div>Karang Baru RT/RW 02/01, Masbagik, Lotim, NTB</div>
+                <div>No. HP:</div>
+                <div>087860925861</div>
+                <div>Email:</div>
+                <div>naelamagfiroh12@gmail.com</div>
+            </div>
+        </div>
+
+        <div class="biodata-section">
+            <h2>Pendidikan Terakhir</h2>
+            <ul>
+                <li>SDN 9 MASBAGIK</li>
+                <li>SMPN 1 MASBAGIK</li>
+                <li>SMAN 1 MASBAGIK</li>
+                <li>UNIVERSITAS MATARAM</li>
+            </ul>
+        </div>
+
+        <div class="biodata-section">
+            <h2>Pengalaman Organisasi</h2>
+            <ul>
+                <li>Ruang Muda BEM UNRAM 2022 (Sekretaris Jendral)</li>
+                <li>BEM UNRAM 2023 (Staff Ahli Sosmas)</li>
+                <li>BEM FKIP UNRAM 2023 (Staff Ahli Adkesma)</li>
+                <li>Himatika FKIP UNRAM 2024 (Koordinator PSDMK)</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; PENDIDIKAN MATEMATIKA</p>
+        </footer>
+    
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
